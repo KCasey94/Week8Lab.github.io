@@ -1,0 +1,36 @@
+*{
+    padding: 100;
+    margin: 100;
+    background-color: beige;
+    box-sizing: border-box;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    font-size: 30px;
+    margin-bottom: auto;
+}
+.picks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    justify-content: space-evenly;
+}
+.rock, .paper, .scissors{
+    width: 70px;
+    background-color: yellow;
+}
+.pick{
+    font-size: medium;
+    font-weight: bold;
+}
+
